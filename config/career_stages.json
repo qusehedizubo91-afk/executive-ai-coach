@@ -1,0 +1,132 @@
+{
+  "career_paths": {
+    "技术领导力": {
+      "stages": [
+        {
+          "id": "tech_junior",
+          "name": "初级工程师",
+          "roles": ["工程师"],
+          "keyFocus": ["技术基础", "项目执行", "技能提升"],
+          "yearsOfExp": "0-3"
+        },
+        {
+          "id": "tech_senior",
+          "name": "资深工程师/Tech Lead",
+          "roles": ["高级工程师", "技术领导"],
+          "keyFocus": ["架构设计", "团队管理", "技术决策"],
+          "yearsOfExp": "3-8"
+        },
+        {
+          "id": "cto_junior",
+          "name": "初阶 CTO",
+          "roles": ["CTO"],
+          "keyFocus": ["技术战略", "建立技术团队", "技术选型"],
+          "yearsOfExp": "8-12"
+        },
+        {
+          "id": "cto_senior",
+          "name": "资深 CTO/VP Engineering",
+          "roles": ["CTO", "VP Engineering"],
+          "keyFocus": ["组织管理", "战略规划", "投资效率"],
+          "yearsOfExp": "12+"
+        }
+      ]
+    },
+    "管理领导力": {
+      "stages": [
+        {
+          "id": "manager_junior",
+          "name": "初级经理",
+          "roles": ["经理", "小组长"],
+          "keyFocus": ["团队管理", "人才培养", "业绩达成"],
+          "yearsOfExp": "0-3"
+        },
+        {
+          "id": "manager_senior",
+          "name": "资深经理/总监",
+          "roles": ["总监", "副总裁"],
+          "keyFocus": ["业务规划", "跨部门协作", "战略执行"],
+          "yearsOfExp": "3-8"
+        },
+        {
+          "id": "executive_junior",
+          "name": "初阶高管(CXO)",
+          "roles": ["CIO", "CTO", "CFO", "CMO"],
+          "keyFocus": ["职能战略", "建立体系", "对齐业务"],
+          "yearsOfExp": "8-12"
+        },
+        {
+          "id": "executive_senior",
+          "name": "资深高管/CEO",
+          "roles": ["CEO", "COO", "主席"],
+          "keyFocus": ["公司战略", "股东价值", "生态建设"],
+          "yearsOfExp": "12+"
+        }
+      ]
+    },
+    "创业之路": {
+      "stages": [
+        {
+          "id": "startup_idea",
+          "name": "创意阶段",
+          "roles": ["创始人候选"],
+          "keyFocus": ["市场调研", "商业模式", "融资准备"],
+          "yearsOfExp": "0-1"
+        },
+        {
+          "id": "startup_seed",
+          "name": "种子阶段(Seed/Pre-seed)",
+          "roles": ["创始人", "CEO"],
+          "keyFocus": ["产品开发", "初次���资", "PMF 探索"],
+          "yearsOfExp": "1-2"
+        },
+        {
+          "id": "startup_growth",
+          "name": "成长阶段(A/B/C 轮)",
+          "roles": ["CEO", "COO"],
+          "keyFocus": ["扩展团队", "市场拓展", "融资", "运营优化"],
+          "yearsOfExp": "2-5"
+        },
+        {
+          "id": "startup_mature",
+          "name": "成熟阶段(D+轮/Pre-IPO)",
+          "roles": ["CEO", "CFO"],
+          "keyFocus": ["盈利能力", "国际化", "上市准备", "M&A"],
+          "yearsOfExp": "5+"
+        }
+      ]
+    },
+    "投资之路": {
+      "stages": [
+        {
+          "id": "investor_junior",
+          "name": "初级投资人(分析师)",
+          "roles": ["投资分析师"],
+          "keyFocus": ["行业研究", "项目发掘", "分析能力"],
+          "yearsOfExp": "0-2"
+        },
+        {
+          "id": "investor_mid",
+          "name": "中级投资人(经理/VP)",
+          "roles": ["投资经理", "投资VP"],
+          "keyFocus": ["项目评估", "尽职调查", "投资决策", "谈判"],
+          "yearsOfExp": "2-6"
+        },
+        {
+          "id": "investor_senior",
+          "name": "资深投资人(基金经理/合伙人)",
+          "roles": ["基金经理", "投资合伙人"],
+          "keyFocus": ["基金管理", "投资策略", "LP 关系", "生态建设"],
+          "yearsOfExp": "6-12"
+        },
+        {
+          "id": "investor_strategic",
+          "name": "战略投资者(CVC/战略投资部)",
+          "roles": ["CVC 负责人", "企业战略投资负责人"],
+          "keyFocus": ["战略规划", "生态投资", "整合管理"],
+          "yearsOfExp": "8+"
+        }
+      ]
+    }
+  }
+}
