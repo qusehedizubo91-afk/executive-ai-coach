@@ -13,18 +13,6 @@
 
 ---
 
-## 🏗️ 系统架构
-你的数据输入 ↓ ┌─────────────────────┐ │ AnythingLLM │ │ (本地知识库) │ ├─────────────────────┤ │ ✓ 文件上传 │ │ ✓ 自动分块 │ │ ✓ 向量化存储 │ │ ✓ 知识库管理 │ └────────┬────────────┘ ↓ ┌─────────────────────┐ │ DeepSeek API │ │ (AI 回答) │ ├─────────────────────┤ │ ✓ 文档分类 │ │ ✓ 问题回答 │ │ ✓ 建议生成 │ └────────┬────────────┘ ↓ 你的答案
-
-
----
-
-## 📂 项目结构
-executive-ai-coach/ ├── config/ ← 配置文件 │ ├── roles_schema.json # 11个角色定义 │ ├── career_stages.json # 职业生涯阶段 │ ├── deepseek_config.json # DeepSeek API配置 │ ├── anythingllm_config.json # AnythingLLM配置 │ ├── classification_rules.json # 分类规则 │ └── system_prompt.md # AI助手人设 │ ├── data/ ← 你的数据（待添加） │ ├── gartner_reports/ # Gartner报告 │ ├── books/ # 书籍PDF │ ├── conference_notes/ # 会议纪要 │ ├── social_media/ # 社媒内容 │ ├── reading_notes/ # 读书笔记 │ ├── industry_news/ # 自动爬虫 │ └── custom_input/ # 其他输入 │ ├── scripts/ ← 脚本（待添加） │ └── [Python脚本] │ ├── README_CN.md # 这个文件 ├── QUICK_START_CN.md # 快速开始指南 └── requirements.txt # 依赖项
-
-
----
-
 ## 🚀 快速开始
 
 ### 前置要求
