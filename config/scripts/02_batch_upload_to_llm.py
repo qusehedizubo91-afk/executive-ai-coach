@@ -1,22 +1,23 @@
 import os
 import shutil
 
-BASE_DIR = os.path.expanduser("~/executive-ai-coach/data")
-# AnythingLLM 扫描的主目录
-TARGET_DOC_DIR = os.path.join(BASE_DIR, "documents")
+# 源头：你的各种数据文件夹
+DATA_DIR = os.path.expanduser("~/executive-ai-coach/data")
+# 目的地：AnythingLLM 真正读取的文档区
+TARGET_DIR = os.path.expanduser("~/executive-ai-coach/storage/documents")
 
-def sync():
-    # 自动创建 documents 下的子文件夹
-    folders = ['industry_news', 'gartner_reports']
-    for f in folders:
-        src = os.path.join(BASE_DIR, f)
-        dest = os.path.join(TARGET_DOC_DIR, f)
+def force_sync():
+    if not os.path.exists(TARGET_DIR): os.makedirs(TARGET_DIR)
+    
+    # 定义要搬运的文件夹
+    sub_folders = ['gartner_reports', 'industry_news', 'books']
+    for folder in sub_folders:
+        src = os.path.join(DATA_DIR, folder)
+        dest = os.path.join(TARGET_DIR, folder)
         if os.path.exists(src):
-            if not os.path.exists(dest): os.makedirs(dest)
-            for file in os.listdir(src):
-                if file.endswith(('.md', '.pdf')):
-                    shutil.copy2(os.path.join(src, file), os.path.join(dest, file))
-                    print(f"已同步: {f}/{file}")
+            if os.path.exists(dest): shutil.rmtree(dest) # 清理旧的
+            shutil.copytree(src, dest) # 搬运新的
+            print(f"已强制同步文件夹: {folder}")
 
 if __name__ == "__main__":
-    sync()
+    force_sync()
