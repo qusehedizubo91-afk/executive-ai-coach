@@ -1,1 +1,185 @@
-
+{
+  "roles": {
+    "CIO": {
+      "title": "首席信息官 (Chief Information Officer)",
+      "description": "负责企业 IT 战略、基础设施、数据治理",
+      "subdomains": [
+        "IT战略规划与转型",
+        "云计算与基础设施现代化",
+        "数据治理与数据策略",
+        "信息安全与风险管理",
+        "企业架构设计",
+        "IT 成本管理与采购",
+        "IT 团队管理与人才培养"
+      ],
+      "relatedRoles": ["CEO", "CDAO", "CISO", "CFO"],
+      "careerPath": ["技术领导力", "管理领导力"],
+      "keyMetrics": ["IT 投资回报率", "系统可用性", "转型进度"]
+    },
+    "CEO": {
+      "title": "首席执行官 (Chief Executive Officer)",
+      "description": "负责公司整体战略、业务拓展、股东价值",
+      "subdomains": [
+        "公司战略与愿景",
+        "融资与资本管理",
+        "并购与战略投资",
+        "组织管理与文化建设",
+        "市场拓展与竞争战略",
+        "对外关系与生态合作",
+        "风险管理与合规"
+      ],
+      "relatedRoles": ["CFO", "CIO", "CTO", "COO"],
+      "careerPath": ["管理领导力", "创业之路", "投资之路"],
+      "keyMetrics": ["收入增长", "市场份额", "股东回报"]
+    },
+    "CFO": {
+      "title": "首席财务官 (Chief Financial Officer)",
+      "description": "负责财务战略、融资、成本控制和投资回报",
+      "subdomains": [
+        "财务战略与规划",
+        "融资管理与资本结构",
+        "成本控制与运营效率",
+        "投资组合管理",
+        "风险管理与内部控制",
+        "财务报告与合规",
+        "M&A 财务评估"
+      ],
+      "relatedRoles": ["CEO", "CIO", "企业战略投资"],
+      "careerPath": ["管理领导力"],
+      "keyMetrics": ["利润率", "现金流", "投资回报率"]
+    },
+    "CTO": {
+      "title": "首席技术官 (Chief Technology Officer)",
+      "description": "负责技术战略、产品技术方向、技术团队",
+      "subdomains": [
+        "技术战略与产品方向",
+        "架构设计与技术选型",
+        "技术团队管理与建设",
+        "AI/ML 应用与创新",
+        "开发流程与质量管理",
+        "技术债管理",
+        "技术生态与开源战略"
+      ],
+      "relatedRoles": ["CEO", "CIO", "产品"],
+      "careerPath": ["技术领导力", "管理领导力", "创业之路"],
+      "keyMetrics": ["产品性能", "技术创新指数", "团队生产力"]
+    },
+    "CISO": {
+      "title": "首席信息安全官 (Chief Information Security Officer)",
+      "description": "负责信息安全战略、风险评估、安全架构",
+      "subdomains": [
+        "安全战略与风险管理",
+        "安全架构与防御体系",
+        "身份与访问管理",
+        "合规管理与审计",
+        "应急响应与事件管理",
+        "安全文化与培训",
+        "供应链安全"
+      ],
+      "relatedRoles": ["CIO", "CEO", "CFO"],
+      "careerPath": ["管理领导力"],
+      "keyMetrics": ["安全事件数", "漏洞修复率", "合规得分"]
+    },
+    "CDAO": {
+      "title": "首席数据与分析官 (Chief Data & Analytics Officer)",
+      "description": "负责数据战略、数据治理、分析能力和数据变现",
+      "subdomains": [
+        "数据战略与规划",
+        "数据治理与质量管理",
+        "数据分析与 BI 能力",
+        "数据基础设施与平台",
+        "数据安全与隐私",
+        "数据文化与培训",
+        "数据变现与商业价值"
+      ],
+      "relatedRoles": ["CIO", "CEO", "CFO"],
+      "careerPath": ["技术领导力", "管理领导力"],
+      "keyMetrics": ["数据质量得分", "分析覆盖率", "数据驱动决策比例"]
+    },
+    "CSO": {
+      "title": "首席供应链官 (Chief Supply Chain Officer)",
+      "description": "负责供应链优化、采购战略、物流管理",
+      "subdomains": [
+        "供应链战略与优化",
+        "采购管理与成本控制",
+        "供应商关系管理",
+        "物流与库存管理",
+        "需求规划与预测",
+        "供应链风险管理",
+        "可持续性与社会责任"
+      ],
+      "relatedRoles": ["CFO", "CEO", "COO"],
+      "careerPath": ["管理领导力"],
+      "keyMetrics": ["供应链成本", "交期准时率", "库存周转率"]
+    },
+    "CVC": {
+      "title": "企业风险投资负责人 (Corporate Venture Capital)",
+      "description": "负责企业风投战略、项目投资评估、投后管理",
+      "subdomains": [
+        "CVC 投资策略",
+        "项目发掘与评估",
+        "估值与谈判",
+        "投后管理与增值",
+        "生态建设与产业链整合",
+        "风险管理与退出策略",
+        "创新文化与开放创新"
+      ],
+      "relatedRoles": ["CEO", "CFO", "战略投资部"],
+      "careerPath": ["投资之路"],
+      "keyMetrics": ["投资回报率", "成功退出比例", "生态价值"]
+    },
+    "投资VP": {
+      "title": "投资副总裁 (Investment Vice President)",
+      "description": "负责项目发掘、尽职调查、投资决策和谈判",
+      "subdomains": [
+        "项目发掘与行业分析",
+        "财务尽职调查",
+        "技术与团队评估",
+        "估值与投资建议",
+        "投资协议谈判",
+        "投资后监管与报告",
+        "风险管理与投资组合"
+      ],
+      "relatedRoles": ["基金经理", "CEO", "CFO"],
+      "careerPath": ["投资之路"],
+      "keyMetrics": ["项目回报率", "成功率", "投资周期"]
+    },
+    "基金经理": {
+      "title": "基金经理 (Fund Manager)",
+      "description": "负责基金管理、投资组合、LP 关系和风险控制",
+      "subdomains": [
+        "基金战略与定位",
+        "投资组合管理",
+        "风险控制与监管",
+        "LP 关系管理",
+        "投资报告与沟通",
+        "退出管理与返现",
+        "生态建设与合作"
+      ],
+      "relatedRoles": ["投资VP", "CEO", "CFO"],
+      "careerPath": ["投资之路"],
+      "keyMetrics": ["基金回报率", "LP 满意度", "投资组合表现"]
+    },
+    "企业战略投资": {
+      "title": "企业战略投资部负责人 (Corporate Strategic Investment Director)",
+      "description": "负责战略规划、战略投资评估、并购整合",
+      "subdomains": [
+        "战略规划与方向设定",
+        "战略投资评估与决策",
+        "并购整合管理",
+        "生态合作与产业链",
+        "创新评估与选型",
+        "国际化战略",
+        "长期价值创造"
+      ],
+      "relatedRoles": ["CEO", "CFO", "CVC"],
+      "careerPath": ["管理领导力", "投资之路"],
+      "keyMetrics": ["战略目标达成率", "投资回报率", "生态价值"]
+    }
+  },
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-05-01",
+    "totalRoles": 11
+  }
+}
